@@ -1,0 +1,24 @@
+---github download the code from (do not clone it), 
+---then unzip this and 
+---the rename the unzip folder to named as  "reactlive"
+https://github.com/thapatechnical/reactlivewebsite
+
+---then follow the steps as mentioned in below youtube video for how to deploy to github
+https://www.youtube.com/watch?v=mdO18zv3oGQ
+https://create-react-app.dev/docs/deployment/
+
+
+----I need troubleshoot as I was getting the below error
+	---fatal: a branch named 'gh-pages' already exists gh-pages while running the below command npm run deploy
+	---for theat i follow the step as mentioned the the nelow url
+	https://github.com/transitive-bullshit/react-modern-library-boilerplate/issues/15
+
+	----as per the above url here I have to add the steps in package.json like this.
+	---- 'clean' : 'gh-pages-clean'
+	---then run the command 
+	--- npm run clean
+	---then again re run the command
+	---npm run deploy and its get run sucessfully saying publish
+
+---my reactwebsited url is 
+https://n5kumarx.github.io/
